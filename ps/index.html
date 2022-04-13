@@ -4,29 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Meta Pixel Code -->
-
-  
-<!-- End Meta Pixel Code -->  
-
   <link rel="stylesheet" href="style.css">
-  <title>Tudo Pronto!</title>
+  <title>Suco de laranja sem casca</title>
 </head>
 <body> 
   <div class="container">
     <div class="black">
       <div>
+        <img src="image.jpeg" width="100%">
         <div class="question">
-          <h1>Tudo Pronto para Prosseguir!</h1>
-          <p>Clique no botão abaixo para continuar</p>
+          <h1>As pessoas estão me confundindo com minha neta!</h1>
+          <p>Depois desse ritual matinal de 3 minutos fiquei irreconhecível… me sinto emocionada e muito grata por ter aprendido esse segredo milenar.</p>
         </div>
         <div class="answer">
-          <a class="btn" href="https://zerobarrigaptc.online/">CONTINUAR</a>
         </div>
+              <!-- Script teste PopUp --><center>
+<div class="container">
+  <button type="submit" class="btn" onclick="openPopup()">Saiba Mais</button>
+      <div class="popup" id="popup">
+        <img src="tick.png" width="50%">
+        <h2>Tudo Pronto Para Prosseguir!</h2>
+        <p2> Clique no botão abaixo para continuar</p2>
+        <button type="button" onclick="window.location.href='https://zerobarrigaptc.online/'">CONTINUAR</button>
+       </div>
+      </div>
+    </center>
+     <!-- End Script PopUp -->
       </div>    
     </div>
-    <p style="text-align: center; font-weight: bold;">© 2022 – Protocolo Zero Barriga. Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
+    <p style="text-align: center; font-weight: bold;">Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
   </div>
   <script type="text/javascript" src="script.js"></script>
+  <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+      popup.classList.add("open-popup");
+    }
+  </script>
 </body>
 </html>
