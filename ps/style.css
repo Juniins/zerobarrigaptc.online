@@ -24,6 +24,7 @@ body {
 .container {
 	width: 700px;
 	max-width: 90%;
+	padding-top: 20%;
 }
 
 .black {
@@ -42,7 +43,7 @@ body {
 .btn {
 	width: 100%;
 	padding: 10px 0;
-	background: #f7ce6a;
+	background: #f3300e;
 	border: 0;
 	outline: none;
 	color: black;
@@ -54,10 +55,13 @@ body {
 
 .black h1 {
 	color: black;
+	font-style: inherit;
+	font-size: 35px;
 }
 
 .black p {
 	font-size: 18px;
+	font-style: inherit;
 	color: black;
 }
 
