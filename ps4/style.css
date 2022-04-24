@@ -43,10 +43,10 @@ body {
 .btn {
 	width: 100%;
 	padding: 10px 0;
-	background: #f3300e;
+	background: #6fd649;
 	border: 0;
 	outline: none;
-	color: black;
+	color: white;
 	font-size: 30px;
 	border-radius: 7px;
 	cursor: pointer;
@@ -68,4 +68,11 @@ body {
 .p2 {
 	font-size: 18px;
 	color: white;
+}
+
+.black img{
+	weight: 50px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.03);
 }

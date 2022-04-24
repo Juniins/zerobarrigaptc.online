@@ -26,6 +26,7 @@ body {
 	max-width: 90%;
 	padding-top: 20%;
 }
+	
 
 .black {
 	background-color: white;
@@ -43,7 +44,7 @@ body {
 .btn {
 	width: 100%;
 	padding: 10px 0;
-	background: #f3300e;
+	background: #f9f524;
 	border: 0;
 	outline: none;
 	color: black;
@@ -62,10 +63,12 @@ body {
 .black p {
 	font-size: 18px;
 	font-style: inherit;
-	color: black;
+	color: rgb(62, 62, 62);
+	padding-bottom: 4%;
 }
 
-.p2 {
-	font-size: 18px;
-	color: white;
+.black p2 {
+	color: black;
+	font-style: inherit;
+	font-size: 25px;
 }
