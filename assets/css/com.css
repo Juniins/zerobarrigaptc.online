@@ -229,10 +229,10 @@ tr {
   border-style: solid; 
   width: 95%; padding-left: 0!important; padding-right: 0!important; 
   margin-bottom: 10px; 
-  padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+  padding: 22px 44px; border-color: #2df94c; border-width: 0px; 
   border-radius: 6px; 
-  background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); 
-  box-shadow: inset 0 0 0.3em gold, 0 0 1.5em #ff6600;
+  background: linear-gradient(to bottom, #1ee936 0%, #02c125 100%); 
+  box-shadow: inset 0 0 0.3em rgb(255, 255, 255), 0 0 1.5em #40f928;
   text-decoration: none!important;
 }
 
@@ -371,9 +371,29 @@ color: #fff;
       z-index: 1; 
       margin: .2em 0 -.5em; 
       font-size: 15px; 
-      color: #f5e051; 
+      color: #ffffff; 
       font-family: Cabin; 
       font-weight: bold; 
       font-style: italic;
-      text-shadow: #000000 0px 1px 0px;
     }
+
+    h1 {
+      color: black;
+      font-size: 32px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-style: inherit;
+      text-align: left;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    p {
+      color: #525252;
+      font-size: 20px;
+      text-align: left;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 25px;
+      padding-left: 5%;
+    }
+    
+    
